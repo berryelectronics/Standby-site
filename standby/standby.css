@@ -37,3 +37,25 @@
 body {
     background-color: #34495e;
 }
+
+.fa {
+    margin-right: 5px;
+}
+
+.navbar-nav>li {
+    border-style: solid;
+    border-width: 0px 1px 0px 1px;
+    border-color: azure;
+}
+
+.navbar-nav>li:first-of-type {
+    border-style: solid;
+    border-width: 0px 1px 0px 2px;
+    border-color: azure;
+}
+
+.navbar-nav>li:last-of-type {
+    border-style: solid;
+    border-width: 0px 2px 0px 1px;
+    border-color: azure;
+}
