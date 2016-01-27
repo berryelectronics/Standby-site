@@ -1,54 +1,352 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Standby.</title>
+	<head>
+    	<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<title>Rezepte.</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="standby.css">
-    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
-      
-      <!--Added Font Awesome-->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <!-- Navigations leiste -->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#"><i class="fa fa-pause-circle"></i>StandbY.</a>
-    </div>
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="#"><i class="fa fa-home"></i>Home</a></li>
-      <li><a href="#"><i class="fa fa-music"></i>Music</a></li>
-      <li><a href="#"><i class="fa fa-microphone"></i>About Me</a></li>
-      <li><a href="#"><i class="fa fa-quote-left"></i>Contact</a></li>
-    </ul>
-  </div>
-</nav>
-<div class="jumbotron">
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  </body>
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    	<link rel="stylesheet" href="standby.css">
+        
+        <link href='https://fonts.googleapis.com/css?family=Poiret+One|Open+Sans:400,300' rel='stylesheet' type='text/css'>
+      	<link href='https://fonts.googleapis.com/css?family=Montserrat+Alternates' rel='stylesheet' type='text/css'>
+      	<!--Added Font Awesome-->
+     	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    	<!--[if lt IE 9]>
+      		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+      		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    	<![endif]-->
+ 	</head>
+	<body>
+    	<!-- Navigations leiste -->
+    	<nav class="navbar navbar-inverse navbar-fixed-top">
+  			<div class="container-fluid">
+    			<div class="navbar-header">
+      				<a id="goto-home" class="navbar-brand" href="#"><i class="fa fa-cutlery"></i>Rezepte.</a>
+    			</div>
+    			<ul class="nav navbar-nav">
+      				<li><a id="goto-home" href="#"><i class="fa fa-home"></i>Home</a></li>
+      				<li><a id="goto-1" href="#">Haferflocken</a></li>
+      				<li><a id="goto-2" href="#">Schokokekse</a></li>
+      				<li><a id="goto-3" href="#">Crepe</a></li>
+                    <li><a id="goto-4" href="#">Marzipan-Plätzchen</a></li>
+                    <li><a id="goto-5" href="#">Shortbread</a></li>
+                    <li><a id="goto-6" href="#">End</a></li>
+    			</ul>
+  			</div>
+		</nav>
+        
+   		<div class="header" id="home">
+        
+        </div>
+        
+		<div class="jumbotron">
+			<center><h1>Geile Rezepte</h1></center>
+		</div>
+        
+		<div class="spacer parallax-windows" data-parallax="scroll" data-image-src="spacer-1.jpg">
+        
+        </div>
+        <div class="content" id="1">
+        	<div class="row">
+            	<div class="col-md-2"></div>
+                <div class="col-md-8">
+                	
+                    <center><h1>Haferflockenkekse</h1></center>
+                    <center><h2>Zutaten</h2></center>
+                    
+                    <table class="table table-striped table-condensed">
+                    	<tr>
+                        	<td class="recipe-amount">200 g</td>
+                            <td class="recipe-item">Butter</td>
+                        </tr>
+                        <tr>
+                        	<td class="recipe-amount">100 g</td>
+                            <td class="recipe-item">Zucker, bei Bedarf mehr</td>
+                        </tr>
+                        <tr>
+                        	<td class="recipe-amount">1 Pck.</td>
+                            <td class="recipe-item">Vanillinzucker</td>
+                        </tr>
+                        <tr>
+                        	<td class="recipe-amount">1</td>
+                            <td class="recipe-item">Ei(er)</td>
+                        </tr>
+                        <tr>
+                        	<td class="recipe-amount">1 Pck.</td>
+                            <td class="recipe-item">Backpulver</td>
+                        </tr>
+                        <tr>
+                        	<td class="recipe-amount">100 g</td>
+                            <td class="recipe-item">Mehl</td>
+                        </tr>
+                        <tr>
+                        	<td class="recipe-amount">250 g</td>
+                            <td class="recipe-item">Haferflocke</td>
+                        </tr>
+                        <tr>
+                        	<td class="recipe-amount">n. B.</td>
+                            <td class="recipe-item">Zimt</td>
+                        </tr>
+                        <tr>
+                        	<td class="recipe-amount">n. B.</td>
+                            <td class="recipe-item">Rosinen, gehackte nüsse oder Schokostückchen (als Varianten)</td>
+                        </tr>
+                    </table>
+                    
+                    <center><h2>Zubereitung</h2></center>
+                    <center><b>Arbeitszeit:</b> ca. 10 Min. / <b> Schwierigkeitsgrad:</b> simpel</center>
+                    <br>
+                    
+                	Die Butter bei Zimmertemperatur weich werden lassen und dann mit dem Zucker verrühren. Vanillinzucker und Ei unterrühren. Mehl, Backpulver, Haferflocken und Zimt erst miteinander mischen und dann auch unterrühren. Wer mag, kann jetzt noch gehackte Nüsse, Rosinen oder Schokostückchen hinzufügen. <br>
+					<br>
+					Mein Favorit: mit gehackten Cashewkernen und Rosinen. <br>
+					<br>
+					Mit einem Löffel Teigportionen auf ein mit Backpapier ausgelegtes Backblech geben. Achtung: die Kekse gehen noch etwas auf! <br>
+					<br>
+					Im vorgeheizten Ofen bei 200°C ca. 12 Minuten backen. <br>
+                    <br>
+                </div>
+            </div>
+        </div>
+		<div class="spacer parallax-windows" data-parallax="scroll" data-image-src="spacer-2.jpg">
+        
+        </div>
+        <div class="content" id="2">
+        	<div class="row">
+            	<div class="col-md-2"></div>
+                <div class="col-md-8">
+                
+                	<center><h1>Schnelle Pecannuss - Plätzchen</h1></center>
+                    <center><h2>Zutaten</h2></center>
+                    
+                    <table class="table table-striped table-condensed">
+                    	<tr>
+                        	<td class="recipe-amount">100 g</td>
+                            <td class="recipe-item">Butter</td>
+                        </tr>
+                        <tr>
+                        	<td class="recipe-amount">100 g</td>
+                            <td class="recipe-item">Zucker</td>
+                        </tr>
+                        <tr>
+                        	<td class="recipe-amount">175 g</td>
+                            <td class="recipe-item">mehl</td>
+                        </tr>
+                        <tr>
+                        	<td class="recipe-amount">75 g</td>
+                            <td class="recipe-item">Schokodekor (schokostreusel o. ä.)</td>
+                        </tr>
+                        <tr>
+                        	<td class="recipe-amount">1 EL</td>
+                            <td class="recipe-item">Backpulver</td>
+                        </tr>
+                        <tr>
+                        	<td class="recipe-amount">2 EL</td>
+                            <td class="recipe-item">Kondensmilch</td>
+                        </tr>
+                    </table>
+                    
+                    <center><h2>Zubereitung</h2></center>
+                    <center><b>Arbeitszeit:</b> ca. 30 Min. / <b> Schwierigkeitsgrad:</b> simpel</center>
+                    <br>
+                    
+                	Zuerst wird die Butter flüssig gemacht, dann mit dem Zucker schaumig geschlagen. Als nächstes die Kondensmilch dazugeben und die Schokostreusel einrühren. Das Mehl mit dem Backpulver unter den Teig mischen und gut durchrühren <br>
+                    <br>
+					Aus dem Teig nun walnussgroße Kugeln formen, aufs Blech geben und platt drücken. Bei ca. 150° im Ofen 30 Minuten backen.<br>
+                    <br>
+                </div>            
+       		</div>
+        </div>
+        
+        <div class="spacer parallax-windows" data-parallax="scroll" data-image-src="spacer-3.jpg">
+        
+        </div>
+        
+        <div class="content" id="3">
+        	<div class="row">
+            	<div class="col-md-2"></div>
+                <div class="col-md-8">
+                
+                    <center><h1>Crêpe</h1></center>
+                    <center><h2>Zutaten</h2></center>
+                    
+                    <table class="table table-striped table-condensed">
+                        <tr>
+                            <td class="recipe-amount">4</td>
+                            <td class="recipe-item">Ei(er)</td>
+                        </tr>
+                        <tr>
+                            <td class="recipe-amount">2 EL</td>
+                            <td class="recipe-item">Zucker</td>
+                        </tr>
+                        <tr>
+                            <td class="recipe-amount">400 ml</td>
+                            <td class="recipe-item">Milch</td>
+                        </tr>
+                        <tr>
+                            <td class="recipe-amount">1 Prise(n)</td>
+                            <td class="recipe-item">Salz</td>
+                        </tr>
+                        <tr>
+                            <td class="recipe-amount">200 ml</td>
+                            <td class="recipe-item">Milch</td>
+                        </tr>
+                        <tr>
+                            <td class="recipe-amount"></td>
+                            <td class="recipe-item">Öl, zum Braten</td>
+                        </tr>
+                    </table>
+                    
+                    <center><h2>Zubereitung</h2></center>
+                    <center><b>Arbeitszeit:</b> ca. 45 Min. / <b>Ruhezeit. </b> ca. 15 Min / <b> Schwierigkeitsgrad:</b> simpel</center>
+                    <br>
+                    
+                    Ei mit dem Zucker und der Milch verquirlen. Dann Salz und Mehl dazugeben und zu einem glatten Teig verrühren. Den Teig ebenfalls 15 Minuten quellen lassen. <br>
+                    <br>
+                    Ebenfalls eine beschichtete Pfanne mit Öl auspinseln, auf mittlerer Stufe erhitzen und nur soviel Teig in die Pfanne geben, bis der Boden gerade bedeckt ist. <br>
+                    <br>
+                    Nach einer halben Minute den Crêpe vorsichtig wenden. Nach einer weiteren halben Minute ist der Crêpe fertig. <br>
+                	<br>
+                </div>
+           	</div>
+        </div>
+        
+        <div class="spacer parallax-windows" data-parallax="scroll" data-image-src="spacer-4.jpg">
+        
+        </div>
+        
+        <div class="content" id="4">
+        	<div class="row">
+            	<div class="col-md-2"></div>
+                <div class="col-md-8">
+                	
+                    <center><h1>Marzipan-Plätzchen</h1></center>
+                    <center><h2>Zutaten</h2></center>
+                    
+                    <table class="table table-striped table-condensed">
+                    	<tr>
+                        	<td class="recipe-amount">500 g</td>
+                            <td class="recipe-item">Weizenmehl</td>
+                        </tr>
+                        <tr>
+                        	<td class="recipe-amount">250 g</td>
+                            <td class="recipe-item">Butter</td>
+                        </tr>
+                        <tr>
+                        	<td class="recipe-amount">150 g</td>
+                            <td class="recipe-item">Zucker</td>
+                        </tr>
+                        <tr>
+                        	<td class="recipe-amount">200 g</td>
+                            <td class="recipe-item">Marzipanrohmasse</td>
+                        </tr>
+                        <tr>
+                        	<td class="recipe-amount"2></td>
+                            <td class="recipe-item">Ei(er)</td>
+                        </tr>
+                        <tr>
+                        	<td class="recipe-amount">&frac12; Pck.</td>
+                            <td class="recipe-item">Backpulver</td>
+                        </tr>
+                        <tr>
+                        	<td class="recipe-amount"></td>
+                            <td class="recipe-item"><b>Zum Verzieren:</b></td>
+                        </tr>
+                        <tr>
+                        	<td class="recipe-amount">n. B.</td>
+                            <td class="recipe-item">Schokolade, dunkle</td>
+                        </tr>
+                        <tr>
+                        	<td class="recipe-amount">n. B.</td>
+                            <td class="recipe-item">Mandelblättchen</td>
+                        </tr>
+                        <tr>
+                        	<td class="recipe-amount">n. B.</td>
+                            <td class="recipe-item">Streusel (Zuckerperlen)</td>
+                        </tr>
+                    </table>
+                    
+                    <center><h2>Zubereitung</h2></center>
+                    <center><b>Arbeitszeit:</b> ca. 30 Min. / <b>Koch-/Backzeit:</b> ca. 8 Min. / <b>Ruhezeit:</b> ca. 1 Std. / <b>Schwierigkeitsgrad:</b> simpel</center>
+                    <br>
+                    
+                    Alle Zutaten gut verkneten. Hierzu das Marzipan in Stückchen zerpflücken, damit es sich gut verteilt. Den Teig eine Stunde im Kühlschrank ruhen lassen. <br>
+					<br>
+					Danach portionsweise 5 mm dick ausrollen und ausstechen. Die Plätzchen bei 175°C (Umluft) ca. 6 – 8 min. backen und herausnehmen, bevor sie braun werden. Nach dem Auskühlen nach Wunsch verzieren. <br>
+                    <br>
+                </div>
+            </div>
+        </div>
+        
+        <div class="spacer parallax-windows" data-parallax="scroll" data-image-src="spacer-5.jpg">
+        
+        </div>
+        
+        <div class="content" id="5">
+        	<div class="row">
+            	<div class="col-md-2"></div>
+                <div class="col-md-8">
+                
+                    <center><h1>Shortbread</h1></center>
+                    <center><h2>Zutaten</h2></center>
+                    
+                    <table class="table table-striped table-condensed">
+                        <tr>
+                            <td class="recipe-amount">125 g</td>
+                            <td class="recipe-item">Butter, weich</td>
+                        </tr>
+                        <tr>
+                            <td class="recipe-amount">40 g</td>
+                            <td class="recipe-item">Zucker</td>
+                        </tr>
+                        <tr>
+                            <td class="recipe-amount">25 g</td>
+                            <td class="recipe-item">Puderzucker</td>
+                        </tr>
+                        <tr>
+                            <td class="recipe-amount">225 g</td>
+                            <td class="recipe-item">Mehl</td>
+                        </tr>
+                        <tr>
+                            <td class="recipe-amount">1 Prise(n)</td>
+                            <td class="recipe-item">Salz</td>
+                        </tr>
+                        <tr>
+                            <td class="recipe-amount">1 EL</td>
+                            <td class="recipe-item">Rosenwasser</td>
+                        </tr>
+                        <tr>
+                            <td class="recipe-amount">n. B.</td>
+                            <td class="recipe-item">Zucker, zum Bestreuen</td>
+                        </tr>
+                    </table>
+                    
+                    <center><h2>Zubereitung</h2></center>
+                    <center><b>Arbeitszeit:</b> ca. 15 Min. / <b>Schwierigkeitsgrad:</b> normal</center>
+                    <br>
+                    
+                    Butter mit dem Zucker cremig rühren. Dann die restlichen Zutaten dazugeben. Zu einem Mürbteig verarbeiten und in eine Springform mit 22cm Durchmesser geben. Mit der Gabel ein paar Mal einstechen und acht Scheiben vorzeichnen (mit dem Messer). <br>
+                    <br>
+                    Dann ca. 30 Minuten bei 160° (Ober-/Unterhitze, vorgeheizt) backen und sofort mit dem Zucker bestreuen und die vorgezeichneten Scheiben komplett durchschneiden. 
+    Abkühlen lassen. <br>
+                    <br>
+                    Kann in einer Blechdose durchaus ein paar Tage gelagert werden. <br>
+                    <br>
+                </div>
+            </div>
+        </div>
+        
+        <div id="6" class="spacer-last parallax-windows" data-parallax="scroll" data-image-src="spacer-6.jpg">
+        	<div class="endtext">You are pretty darn awesome.</div>
+  		</div>
+        
+        
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script src="parallax/parallax.min.js"></script>
+        <script src="standby.js"></script>
+	</body>
 </html>
